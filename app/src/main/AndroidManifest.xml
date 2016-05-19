@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hritiksapra.oddevenapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/devenod"
+        android:label="Devenod"
+        android:title="Devenod"
+        android:supportsRtl="true"
+        android:theme="@style/MyAppTheme">
+        <activity android:name=".MainActivity" android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CarData" android:screenOrientation="portrait" />
+        <activity android:name=".Choose" android:screenOrientation="portrait" />
+        <activity android:name=".Taxi" android:screenOrientation="portrait" />
+        <activity android:name=".CarDatabase" />
+        <activity android:name=".Splash" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
